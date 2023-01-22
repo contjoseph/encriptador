@@ -1,0 +1,158 @@
+/* importaciones colores */
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+
+
+
+/* estilos generales */
+body{
+    background: #F3F5FC;
+    width: 80%;
+    margin: 20px auto;
+}
+.container{
+   
+    display: flex;
+    justify-content: flex-end;
+    height: 75vh;
+}
+main{
+    width: 60%;
+}
+aside{
+    background: #FFF;
+    border-radius: 32px;
+    width: 25%;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, .08);
+    text-align: center;
+}
+/* estilos del contenido dentro de main main  */
+textarea{
+    background: #F3F5FC;
+    border: none;
+    width: 95%;
+    resize: none;
+}
+textarea::placeholder{
+    color: #0A3871;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.5rem;
+}
+.cuidado{
+    height: 16px;
+    width: 16px;
+}
+main p{
+    margin-top: 232px;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.6rem;
+    color: #495057;
+}
+
+.botones input{
+    width: 45%;
+    height:45px;
+    border-radius: 15px;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.8rem;
+}
+.botones input:first-of-type{
+    background: #0A3871;
+    color: #FFF;
+    margin-right: 2%;
+}
+.botones input:nth-of-type(2){
+    background: #D8DFE8;
+    color: #0A3871;
+}
+
+/* Estilos del contienido dentro del aside  */
+.buscando{
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    max-height: 200px;
+    margin-top: 80px;
+}
+aside p:first-of-type{
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 1.2rem;
+    line-height: 120%;
+}
+aside p:nth-of-type(2){
+    font-family: 'Inter', sans-serif;
+    font-size: 0.8rem;
+    color: #495057;
+}
+
+/* estilos del footer */
+footer {
+    width: 100%;
+    display: inline-block;
+    margin: 2em 0;
+    height: 70px;
+    background-color: #999;
+}
+footer p {
+    margin: 0;
+    padding-left: 10%;
+    color: white;
+    font-size: 0.7em;
+    line-height: 70px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    @media (max-width: 600px) {
+        text-align: center;
+        padding: 0;
+    }
+}
+.copyright {
+    width: 50%;
+    float: left;
+    @media (max-width: 600px) {
+      width: 100%;
+    }
+    
+} 
+.social {
+    width: 50%;
+    float: right;
+  @media (max-width: 600px) {
+    width: 100%;
+  }
+}
+.social a {
+    float: left;
+    line-height: 70px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-weight: bold; 
+  }
+  .social a:hover {
+    background-color: #222;
+  }
+  .linked {
+    background-color: #1E83AE;
+    font-size: 1.2rem;
+    width: 20%;
+  }
+  
+  .face {
+    background-color: #3D5B94;
+    font-size: 1.2rem;
+    width: 20%;
+  }
+  
+  .tweet {
+    background-color: #3DACDD;
+    font-size: 1.2rem;
+    width: 20%;
+  }
+  
+  .support {
+    background-color: #6dcd9a;
+    font-size: 0.8em;
+    width: 40%;
+  }
